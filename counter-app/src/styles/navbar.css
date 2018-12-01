@@ -1,0 +1,12 @@
+.test2 {
+  margin-bottom: 2px;
+  color: #fff !important;
+}
+.nav-block {
+  margin-bottom: 12px;
+  height: 60px;
+  background-image: url("../img/bg-abstract-dark.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

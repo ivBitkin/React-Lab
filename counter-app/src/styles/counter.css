@@ -1,0 +1,17 @@
+.test {
+  width: 100px;
+  height: 22px;
+  font-size: 14px !important;
+}
+.btn-custom {
+  width: 80%;
+  height: 40px;
+  background-color: rgb(22, 46, 63);
+  color: rgb(32, 230, 230);
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 6px;
+}
+.btn-custom:hover {
+  background-color: rgb(14, 29, 39);
+}
