@@ -1,0 +1,50 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(44, 59, 40),
+    rgb(152, 204, 67)
+  );
+  color: rgb(153, 200, 153);
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.test input {
+  border: 1px solid rgb(20, 68, 20);
+  padding-left: 10px;
+  height: 20px;
+  width: 120px;
+  border-radius: 12px;
+  background: rgb(96, 177, 100);
+  outline: none;
+  margin-right: 10px;
+  margin-left: 10px;
+  transition: width 0.5s ease-in-out;
+}
+.test button {
+  cursor: pointer;
+  height: 20px;
+  width: 120px;
+  border-radius: 12px;
+  background: rgb(96, 177, 100);
+  border: 1px solid rgb(20, 68, 20);
+  outline: none;
+  color: rgb(28, 58, 28);
+  transition: width 0.5s ease-in-out;
+}
+.test button:hover {
+  width: 180px;
+  background: rgb(27, 209, 36);
+}
+.test input:focus {
+  width: 180px;
+  background: rgb(27, 209, 36);
+}
+.test input:hover {
+  width: 180px;
+  background: rgb(27, 209, 36);
+}
+.test ul li {
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
