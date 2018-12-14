@@ -7,16 +7,12 @@ import { createStore } from "redux";
 import "./index.css";
 import App from "./App";
 
-const initialState = ["Rap God", "Hello", "25 to life"];
+import reducer from "./reducers";
 
-function playlist(state = initialState, action) {
-  if (action.type === "ADD_TRACK") {
-    return [...state, action.payload];
-  }
-  return state;
-}
-
-const store = createStore(playlist);
+const store = createStore(
+  reducer,
+  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+);
 
 ReactDOM.render(
   <Provider store={store}>
