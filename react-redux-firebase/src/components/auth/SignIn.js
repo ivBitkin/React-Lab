@@ -13,7 +13,6 @@ class SignIn extends Component {
   };
   handleSumbit = e => {
     e.preventDefault();
-    console.log(this.state);
   };
 
   render() {
